@@ -12,7 +12,7 @@ import java.util.List;
  */
 public final class AddrUtil {
 
-  private AddrUtil() {} // 생성자를 그냥 막아놨네?
+  private AddrUtil() {} // 생성자를 그냥 막아놨네? 혹시 이건 상속용으로 쓰려는 건가? 다른 클래스에서 이걸 상속해서 쓰려고?
 
   /**
    * Split a string containing whitespace or comma separated host or
@@ -23,7 +23,7 @@ public final class AddrUtil {
    * Note that colon-delimited IPv6 is also supported.
    * For example:  ::1:11211
    */
-  public static List<InetSocketAddress> getAddresses(String s) { // 그리고 메서드만 열어 놨네? 생성자 없이 익명 객체로만 메서드를 실행하라는 건가?
+  public static List<InetSocketAddress> getAddresses(String s) { // 그리고 메서드만 열어 놨네? 생성자를 막아놔서 익명 객체로 메서드만 실행하는 것도 안 될 텐데?
     if (s == null) { // 입력값이 없으면
       throw new NullPointerException("Null host list"); // 예외를 new로 만드는 것도 가능하구나
     }
