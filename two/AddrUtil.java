@@ -1,7 +1,7 @@
-// this is not mine and from [ https://github.com/naver/arcus-java-client - src/main/java/net/spy/memcached/AddrUtil.java ]
+// this is not mine and from [ https://github.com/naver/arcus-java-client.git ]
 // I don't have any rights related with this code.
 
-package net.spy.memcached;
+package others;
 
 import java.net.InetSocketAddress;
 import java.util.ArrayList;
