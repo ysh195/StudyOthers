@@ -58,7 +58,7 @@ public final class AddrUtil {
   }
 
   public static InetSocketAddress getAddress(String s) {
-    return getAddresses(s).get(0); // getAddresses가 static 메서드니까 바로 실행 가능함
+    return getAddresses(s).get(0); // getAddresses가 static 메서드니까 바로 실행 가능함. InetSocketAddress를 저장하는 ArrayList의 요소니까 당연히 리턴 타입은 InetSocketAddress
     // get(0) List 클래스의 함수로, List 내의 인덱스가 0인(맨 앞에 있는) 개체를 출력. 근데 굳이 0을 가져오는 이유가 있나?
     // List에 들어가는 항목이 엄청 많을 텐데, 차라리 번호도 따로 입력 받아서 해당 개체 출력하게 하는 게 좋지 않나? 그냥 제대로 만들어졌는지
     // static 때문에 고정되어 같은 메서드인 이상 내부에 있는 List도 아마 동일 객체일 거임. 그러니 생성된 객체 내의 값을 가져옴으로써 그냥 잘 생성 됐는지 확인하는 건가?
