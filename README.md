@@ -6,3 +6,5 @@
    - 이건 퍼즐이라기보다는 아폴로 프로젝트에 가까움. 작은 부품들이 절차를 거침에 따라 자연스럽게 달라붙어서 하나의 거대한 부품을 이루고, 그게 중앙에서 합쳐져서 아주 거대한 무언가가 되는 방식
    - 그리고 매개변수가 너무 많거나 길면 엔터로 구분해 줌
    - 앞으로 매개변수를 통한 자연스러운 완성을 좀 더 신경써야 겠음
+2. https://github.com/naver/arcus-java-client.git
+ - src/main/java/net/spy/memcached/AddrUtil.java
