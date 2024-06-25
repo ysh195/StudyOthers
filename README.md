@@ -8,3 +8,6 @@
    - 앞으로 매개변수를 통한 자연스러운 완성을 좀 더 신경써야 겠음
 2. https://github.com/naver/arcus-java-client.git
  - src/main/java/net/spy/memcached/AddrUtil.java
+ - src/main/java/net/spy/memcached/ArcusClient.java
+ - src/main/java/net/spy/memcached/plugin/FrontCacheMemcachedClient.java
+ - src/main/java/net/spy/memcached/ArcusClientIF.java
